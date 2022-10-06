@@ -23,3 +23,4 @@ Answers of questions:
 - Maybe we can create our own token.
 
 ![schema_lab1 drawio](https://user-images.githubusercontent.com/83900905/192099613-bd190993-6d22-4617-a061-63f447f61b27.png)
+![Capture](https://user-images.githubusercontent.com/83900905/194343990-a2487e52-7c62-4171-874b-d753c92b7c15.JPG)
