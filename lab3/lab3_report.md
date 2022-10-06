@@ -8,4 +8,13 @@ Lab: Lab3<br>
 Date of create: 26.09.2022<br>
 Date of finished: 05.10.2022<br>![Capture](https://user-images.githubusercontent.com/83900905/194126151-c0fdcbff-8547-4608-aee1-c768bd9c0f87.JPG)
 <br>
+- Create configmap with pair `key:value`: kubectl create -f C:\Users\TrungNM\Desktop\desk\introduction\Lab\lab3\cm.yaml<br>
+- Create replicaset and define the environment with value from configmap that we created before: kubectl create -f C:\Users\TrungNM\Desktop\desk\introduction\Lab\lab3\replicaset.yaml<br>
+- Create service for replicaset: kubectl create -f C:\Users\TrungNM\Desktop\desk\introduction\Lab\lab3\svc.yaml<br>
+- Enable ingress: kubectl create -f C:\Users\TrungNM\Desktop\desk\introduction\Lab\lab3\svc.yaml<br>
+- Create secret with certificate and private key: kubectl create secret tls secret-tls --cert=cert.pem --key=key.pem<br>
+- Host ini: define the host that we could access via after deploy. Here: lab3.example.com<br>
+- Create ingress: kubectl create -f C:\Users\TrungNM\Desktop\desk\introduction\Lab\lab3\ingress.yaml<br>
+- Run: minikube tunnel<br>
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/83900905/194136434-b92ba1c7-d894-4276-9478-f5c04fbb91b5.png)
+Picture 1 - Result
