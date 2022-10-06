@@ -19,8 +19,6 @@ Answers of questions:
 - minikube stop: `Stopping minikube`
 
 2. Где взять токен для входа в Vault?
-- We can get root token for signning to Vault when we create a Vault Dev server with command `vault server -dev`. After that, many logs will be printed in a file named Vault server configuration and we have root token here.
-- Maybe we can create our own token.
-
+- Using command "kubectl logs vault" then find root token in logs.
 ![schema_lab1 drawio](https://user-images.githubusercontent.com/83900905/192099613-bd190993-6d22-4617-a061-63f447f61b27.png)
 ![Capture](https://user-images.githubusercontent.com/83900905/194343990-a2487e52-7c62-4171-874b-d753c92b7c15.JPG)
