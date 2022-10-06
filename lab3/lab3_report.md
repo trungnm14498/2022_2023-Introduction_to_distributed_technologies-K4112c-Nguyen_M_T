@@ -16,8 +16,7 @@ Date of finished: 05.10.2022<br>
 - Create ingress: kubectl create -f C:\Users\TrungNM\Desktop\desk\introduction\Lab\lab3\ingress.yaml<br>
 - Run: minikube tunnel<br>
 ![Capture](https://user-images.githubusercontent.com/83900905/194126151-c0fdcbff-8547-4608-aee1-c768bd9c0f87.JPG)
-Picture 1 - Result after deploy
-<br>
+Picture 1 - Result after deploy<br>
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/83900905/194373638-2115a061-d205-4efb-b634-c5d7d6460673.png)
 Scheme 1 - How Ingress works with TLS
 
