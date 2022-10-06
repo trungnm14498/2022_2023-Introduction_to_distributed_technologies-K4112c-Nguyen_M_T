@@ -17,6 +17,7 @@ Date of finished: 05.10.2022<br>
 - Run: minikube tunnel<br>
 ![Capture](https://user-images.githubusercontent.com/83900905/194126151-c0fdcbff-8547-4608-aee1-c768bd9c0f87.JPG)
 Picture 1 - Result
+<br>
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/83900905/194136434-b92ba1c7-d894-4276-9478-f5c04fbb91b5.png)
 Scheme 1 - How Ingress works with TLS
 
