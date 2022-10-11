@@ -18,4 +18,8 @@ Pic 1 - Checking calico nodes works
 6. Create deployment with 2 replicaset and env: `kubectl create -f C:\Users\TrungNM\Desktop\desk\introduction\Lab\lab4\replicaset.yaml`
 7. Ceate service for deployment: `kubectl create -f C:\Users\TrungNM\Desktop\desk\introduction\Lab\lab4\svc.yaml`
 8. Forward it to port. Result in Pic 2: `kubectl port-forward service/web-service 3000:3000`
+![2-result-browser](https://user-images.githubusercontent.com/83900905/195160377-54b28159-0ad8-426f-ae6a-11ac90ed6583.JPG)<br>
+Pic 2 - Result on browser (IP address is same with ippool config file)
 9. Ping check from this pod to that pod using kubectl exec: `kubectl exec -it webserver-b74d57f96-5hb2s -- ping 192.168.66.0`
+![3-ping](https://user-images.githubusercontent.com/83900905/195160550-69b62ce8-470d-47e8-8578-f9e41a0f7125.JPG)<br>
+Pic 3 - Successfully ping from pod to other pod
